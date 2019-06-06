@@ -2,6 +2,7 @@ import React from "react";
 import Img0 from "./Assests/Img/YouTube Logo.png";
 import Img1 from "./Assests/Img/Facebook Logo.png";
 import Img2 from "./Assests/Img/Spotify Logo.png";
+import { Link  } from "react-router-dom";
 
 
 function Home() {
@@ -10,9 +11,9 @@ function Home() {
       <header>
         <nav>
           <ul>
-            <li>HOME</li>
-            <li>STORE</li>
-            <li>ABOUT</li>
+          <Link to="/"><li>HOME</li></Link>  
+          <Link to="/store">  <li>STORE</li></Link>
+          <Link to="/about">  <li>ABOUT</li></Link>
           </ul>
         </nav>
         <hr />
@@ -90,9 +91,12 @@ function Home() {
       <footer>
           <h3>The Generics</h3>
           <ul>
-              <li><img src={Img0} alt="youtube-logo" /></li>
-              <li><img src={Img1} alt="facebook-logo" /></li>
-              <li><img src={Img2} alt="twitter-logo" /></li> 
+              <li>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><img src={Img0} alt="youtube-logo" /></a></li>
+              <li>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><img src={Img1} alt="facebook-logo" /></a></li>
+              <li>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><img src={Img2} alt="twitter-logo" /></a></li> 
           </ul>
       </footer>
     </div>

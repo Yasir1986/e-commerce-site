@@ -3,6 +3,7 @@ import Img from "./Assests/Img/Band Members.png";
 import Img0 from "./Assests/Img/YouTube Logo.png";
 import Img1 from "./Assests/Img/Facebook Logo.png";
 import Img2 from "./Assests/Img/Spotify Logo.png";
+import { Link  } from "react-router-dom";
 
 
 function About() {
@@ -11,9 +12,9 @@ function About() {
       <header>
         <nav>
           <ul>
-            <li>HOME</li>
-            <li>STORE</li>
-            <li>ABOUT</li>
+          <Link to="/">  <li>HOME</li></Link>
+          <Link to="/store"> <li>STORE</li></Link>
+          <Link to="/about"> <li>ABOUT</li></Link>
           </ul>
         </nav>
         <hr />
@@ -29,7 +30,7 @@ function About() {
           rhoncus tellus luctus vitae. Sed sit amet iaculis turpis. Vestibulum
           placerat sodales mattis.
         </p>
-        <img height="300" width="500" src={Img} alt="members" />
+        <img src={Img} alt="members" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac
           purus a urna efficitur pretium. Donec in elit leo. Mauris nec volutpat
@@ -42,9 +43,15 @@ function About() {
       <footer>
           <h3>The Generics</h3>
           <ul>
-              <li><img src={Img0} alt="youtube-logo" /></li>
-              <li><img src={Img1} alt="facebook-logo" /></li>
-              <li><img src={Img2} alt="twitter-logo" /></li> 
+              <li>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">  <img src={Img0} alt="youtube-logo" /></a>
+                </li>
+              <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">  <img src={Img1} alt="facebook-logo" /></a>
+                </li>
+              <li>
+              <a href="https://spotify.com" target="_blank" rel="noopener noreferrer">  <img src={Img2} alt="twitter-logo" /></a>
+                </li> 
           </ul>
       </footer>
     </div>
