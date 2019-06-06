@@ -1,7 +1,8 @@
 import React from "react";
-import Img0 from "./Assests/Img/youtube.png";
-import Img1 from "./Assests/Img/facebook_logos_PNG19751.png";
-import Img2 from "./Assests/Img/twitter-logo.png";
+import Img0 from "./Assests/Img/YouTube Logo.png";
+import Img1 from "./Assests/Img/Facebook Logo.png";
+import Img2 from "./Assests/Img/Spotify Logo.png";
+import Album1 from "./Assests/Img/Album 1.png";
 
 
 function Store() {
@@ -21,10 +22,14 @@ function Store() {
         <section>
           <h2>MUSIC</h2>
             <div>
-              <strong>Album 1</strong>
-              <img src="" />
+                <div>
+                  <strong>Album 1</strong>
+                </div>
+              <img src={Album1} alt="album 1" />
+              <div>
                 <span>$12.99</span>
                 <button type="button">ADD TO CART</button>
+              </div>
             </div>
         </section>
         <section>
@@ -36,9 +41,9 @@ function Store() {
       <footer>
           <h3>The Generics</h3>
           <ul>
-              <li><img height="40"  src={Img0} alt="youtube-logo" /></li>
-              <li><img height="40"  src={Img1} alt="facebook-logo" /></li>
-              <li><img height="40"  src={Img2} alt="twitter-logo" /></li> 
+              <li><img src={Img0} alt="youtube-logo" /></li>
+              <li><img src={Img1} alt="facebook-logo" /></li>
+              <li><img src={Img2} alt="twitter-logo" /></li> 
           </ul>
       </footer>
     </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import Img from "./Assests/Img/members.jpg";
-import Img0 from "./Assests/Img/youtube.png";
-import Img1 from "./Assests/Img/facebook_logos_PNG19751.png";
-import Img2 from "./Assests/Img/twitter-logo.png";
+import Img from "./Assests/Img/Band Members.png";
+import Img0 from "./Assests/Img/YouTube Logo.png";
+import Img1 from "./Assests/Img/Facebook Logo.png";
+import Img2 from "./Assests/Img/Spotify Logo.png";
 
 
 function About() {
@@ -42,9 +42,9 @@ function About() {
       <footer>
           <h3>The Generics</h3>
           <ul>
-              <li><img height="40"  src={Img0} alt="youtube-logo" /></li>
-              <li><img height="40"  src={Img1} alt="facebook-logo" /></li>
-              <li><img height="40"  src={Img2} alt="twitter-logo" /></li> 
+              <li><img src={Img0} alt="youtube-logo" /></li>
+              <li><img src={Img1} alt="facebook-logo" /></li>
+              <li><img src={Img2} alt="twitter-logo" /></li> 
           </ul>
       </footer>
     </div>
