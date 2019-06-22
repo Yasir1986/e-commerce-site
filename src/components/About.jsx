@@ -18,7 +18,7 @@ function About() {
           <Link to="/about"> <li>ABOUT</li></Link>
           </ul>
         </nav>
-        <h1>The Generics</h1>
+        <h1 class="band-name band-name-large">The Generics</h1>
       </header>
       <section>
         <h2>ABOUT</h2>
