@@ -3,24 +3,21 @@ import Img0 from "./Assests/Img/YouTube Logo.png";
 import Img1 from "./Assests/Img/Facebook Logo.png";
 import Img2 from "./Assests/Img/Spotify Logo.png";
 import { Link  } from "react-router-dom";
-
+import "./Assests/Css/Style.css";
 
 function Home() {
   return (
     <div>  
-      <header>
-        <nav>
+      <header class="main-header">
+        <nav class="nav main-nav ">
           <ul>
           <Link to="/"><li>HOME</li></Link>  
           <Link to="/store">  <li>STORE</li></Link>
           <Link to="/about">  <li>ABOUT</li></Link>
           </ul>
         </nav>
-        <hr />
         <h1>The Generics</h1>
         <button type="button">Get Our Latest Album</button>
-        <br />
-        <br />
         <button type="button">&#9658;</button>
       </header>
         <section>

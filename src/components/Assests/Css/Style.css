@@ -1,29 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
-@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
-
-@font-face {
-  font-family: "Booter - Zero Zero";
-  src: url("./components/Assests/Fonts/Booter - Zero Zero.woff") format("woff"),
-    url("./components/Assests/Fonts/Booter - Zero Zero.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: Raleway;
-  color: #777;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .main-header {
     background-color: rgba(0, 0, 0, 0.6);
-    background-image: url("./components/Assests/Img/Header Background.jpg");
+    background-image: url("..\Img\Header Background.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding: 30px;
