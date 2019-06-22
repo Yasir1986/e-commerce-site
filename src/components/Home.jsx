@@ -41,71 +41,76 @@ function Home() {
             <span class="tour-item tour-date">JUL 16</span>
             <span class="tour-item tour-city">DETROIT, MI</span>
             <span class="tour-item tour-arena">DTE ENERGY MUSIC CENTER</span>
-            <button class="btn tour-item tour-btn" type="button">BUT TICKETS</button>
+            <button class="btn tour-item tour-btn btn-primary" type="button">BUT TICKETS</button>
           </div>
           <div  class="tour-row">
-            <strong>JUL 19</strong>
-            <span>TORONTO, ON</span>
-            <span>BUD WISER SATGE</span>
-            <button type="button">BUT TICKETS</button>
+            <span class="tour-item tour-date">JUL 19</span>
+            <span class="tour-item tour-city">TORONTO, ON</span>
+            <span class="tour-item tour-arena">BUD WISER SATGE</span>
+            <button class="btn tour-item tour-btn btn-primary" type="button">BUT TICKETS</button>
           </div>
           <div  class="tour-row">
-            <strong>JUL 22</strong>
-            <span>BRISTON, VA</span>
-            <span>JIGGLY LIVE </span>
-            <button type="button">BUT TICKETS</button>
+            <span class="tour-item tour-date">JUL 22</span>
+            <span class="tour-item tour-city">BRISTON, VA</span>
+            <span class="tour-item tour-arena">JIGGLY LIVE </span>
+            <button class="btn tour-item tour-btn btn-primary" type="button">BUT TICKETS</button>
           </div>
           <div class="tour-row">
-            <strong>JUL 29</strong>
-            <span>PHOENIX, AZ</span>
-            <span>AK-CHIN CENTER</span>
-            <button type="button">BUT TICKETS</button>
+            <span class="tour-item tour-date">JUL 29</span>
+            <span class="tour-item tour-city">PHOENIX, AZ</span>
+            <span class="tour-item tour-arena">AK-CHIN CENTER</span>
+            <button class="btn tour-item tour-btn btn-primary" type="button">BUT TICKETS</button>
           </div>
           <div class="tour-row">
-            <strong>AUG 2</strong>
-            <span>LAS VEGAS, NY</span>
-            <span>T-MOBILE ARENA</span>
-            <button type="button">BUT TICKETS</button>
+            <span class="tour-item tour-date">AUG 2</span>
+            <span class="tour-item tour-city">LAS VEGAS, NY</span>
+            <span class="tour-item tour-arena">T-MOBILE ARENA</span>
+            <button class="btn tour-item tour-btn btn-primary" type="button">BUT TICKETS</button>
           </div>
           <div class="tour-row">
-            <strong>AUG 7</strong>
-            <span>DALLAS, TX</span>
-            <span>TEXAS ARENA</span>
-            <button type="button">BUT TICKETS</button>
+            <span class="tour-item tour-date">AUG 7</span>
+            <span class="tour-item tour-city">DALLAS, TX</span>
+            <span class="tour-item tour-arena">TEXAS ARENA</span>
+            <button  class="btn tour-item tour-btn btn-primary" type="button">BUT TICKETS</button>
           </div>
         </div>
       </section>
-      <footer>
-        <h3>The Generics</h3>
-        <ul>
+      <footer class="main-footer">
+        <div class="container main-footer-container">
+        <h3 class="band-name">The Generics</h3>
+        <ul class="nav footer-nav">
           <li>
             <a
               href="https://youtube.com"
               target="_blank"
               rel="noopener noreferrer"
             >
+              {" "}
               <img src={Img0} alt="youtube-logo" />
             </a>
           </li>
           <li>
             <a
-              href="https://youtube.com"
+              href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
+              {" "}
               <img src={Img1} alt="facebook-logo" />
             </a>
           </li>
           <li>
             <a
-              href="https://youtube.com"
+              href="https://spotify.com"
               target="_blank"
               rel="noopener noreferrer"
             >
+              {" "}
               <img src={Img2} alt="twitter-logo" />
             </a>
           </li>
         </ul>
+        </div>
       </footer>
     </div>
   );
