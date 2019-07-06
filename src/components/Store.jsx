@@ -9,20 +9,21 @@ import Album4 from "./Assests/Img/Album 4.png";
 import Shirt from "./Assests/Img/Shirt.png";
 import Coffee from "./Assests/Img/Cofee.png";
 import { Link  } from "react-router-dom";
+import "./Assests/Css/Style.css";
+
 
 function Store() {
   return (
     <div>
-      <header>
-        <nav>
+      <header class="main-header">
+        <nav class="main-nav nav">
           <ul>
            <Link to="/"> <li>HOME</li></Link>
            <Link to="/store">   <li>STORE</li></Link>
            <Link to="/about"> <li>ABOUT</li></Link>
           </ul>
-        </nav>
-        <hr />
-        <h1>The Generics</h1>
+        </nav> 
+        <h1 class="band-name band-name-large">The Generics</h1>
       </header>
         <section>
           <h2>MUSIC</h2>

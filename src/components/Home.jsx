@@ -111,7 +111,7 @@ function Home() {
           </li>
         </ul>
         </div>
-      </footer>
+      </footer> 
     </div>
   );
 }
