@@ -112,27 +112,31 @@ function Store() {
           <span class="cart-price cart-header cart-column">PRICE</span>
           <span class="cart-quantity cart-header cart-column">QUANTITY</span>
         </div>
+
         <div class="cart-row">
           <div class="cart-item cart-column">
             <img class="cart-item-image" src={Shirt} width="100" height="100" alt="shirt" />
               <span class="cart-item-title">T-Shirt</span>
           </div>
-          <span class="cart-price cart-column ">$19.99</span>
-          <div class="cart-quantity cart-column">
-            <input class="cart-qunatity-input" type="number" value="1" />
-             <button class="btn btn-danger cart-quantity-button" type="button">REMOVE</button>
+            <span class="cart-price cart-column ">$19.99</span>
+              <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="1" />
+                <button class="btn btn-danger" type="button">REMOVE</button>
           </div>
         </div>
-        <div>
-          <img src={Album3} width="100" height="100" alt="album3logo" />
-          <span>Album 3</span>
-          &lt;&gt;
-          <span>$9.99</span>
-          &lt;&gt;
-          <input type="number" value="2" />
-          <button type="button">REMOVE</button>
+
+        <div class="cart-row">
+          <div class="cart-item cart-columm">
+            <img class="cart-item-image" src={Album3} width="100" height="100" alt="album3logo" />
+              <span class="cart-item-title">Album 3</span>
         </div>
-        <hr />
+            <span class="cart-price cart-column ">$9.99</span>
+              <div class="cart-quantity cart-column">
+                <input class="cart-quantity-input" type="number" value="2" />
+                <button  class="btn btn-danger" type="button">REMOVE</button>
+              </div>
+        </div>
+        
         <div>
           <strong>Total</strong>
           <span>$39.97</span>
