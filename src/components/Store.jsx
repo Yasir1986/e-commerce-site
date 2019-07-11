@@ -118,9 +118,9 @@ function Store() {
             <img class="cart-item-image" src={Shirt} width="100" height="100" alt="shirt" />
               <span class="cart-item-title">T-Shirt</span>
           </div>
-            <span class="cart-price cart-column    ">$19.99</span>
+            <span class="cart-price cart-column">$19.99</span>
               <div class="cart-quantity cart-column">
-                <input class="cart-quantity-input" type="number" value="1" />
+                <input class="cart-quantity-input" type="number" defaultValue="1"/>
                 <button class="btn btn-danger" type="button">REMOVE</button>
           </div>
         </div>
@@ -133,7 +133,7 @@ function Store() {
         </div>
             <span class="cart-price cart-column">$9.99</span>
               <div class="cart-quantity cart-column">
-                <input class="cart-quantity-input" type="number" value="2" />
+                <input class="cart-quantity-input" type="number" defaultValue="2" />
                 <button  class="btn btn-danger" type="button">REMOVE</button>
               </div>
         </div>
