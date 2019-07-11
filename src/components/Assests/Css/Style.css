@@ -4,6 +4,7 @@
   background-blend-mode: multiply;
   background-size: cover;
   padding: 30px;
+  display: grid;
 }
 
 .nav ul {
@@ -216,6 +217,7 @@
 
 .shop-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
