@@ -118,43 +118,46 @@ function Store() {
             <img class="cart-item-image" src={Shirt} width="100" height="100" alt="shirt" />
               <span class="cart-item-title">T-Shirt</span>
           </div>
-            <span class="cart-price cart-column ">$19.99</span>
+            <span class="cart-price cart-column    ">$19.99</span>
               <div class="cart-quantity cart-column">
                 <input class="cart-quantity-input" type="number" value="1" />
                 <button class="btn btn-danger" type="button">REMOVE</button>
           </div>
         </div>
 
+        <div class="cart-items">
         <div class="cart-row">
           <div class="cart-item cart-columm">
             <img class="cart-item-image" src={Album3} width="100" height="100" alt="album3logo" />
               <span class="cart-item-title">Album 3</span>
         </div>
-            <span class="cart-price cart-column ">$9.99</span>
+            <span class="cart-price cart-column">$9.99</span>
               <div class="cart-quantity cart-column">
                 <input class="cart-quantity-input" type="number" value="2" />
                 <button  class="btn btn-danger" type="button">REMOVE</button>
               </div>
         </div>
-        
-        <div>
-          <strong>Total</strong>
-          <span>$39.97</span>
         </div>
-        <div>
-          <button type="button">PURCHASE </button>
+
+        <div class="cart-total">
+          <strong class="cart-total-title">Total</strong>
+          <span class="cart-total-price">$39.97</span>
         </div>
+          <button class="btn btn-primary btn-purchase" type="button">PURCHASE </button>
       </section>
 
-      <footer>
-        <h3>The Generics</h3>
-        <ul>
+
+      <footer class="main-footer">
+        <div class="container main-footer-container">
+        <h3 class="band-name">The Generics</h3>
+        <ul class="nav footer-nav">
           <li>
             <a
               href="https://youtube.com"
               target="_blank"
               rel="noopener noreferrer"
             >
+              {" "}
               <img src={Img0} alt="youtube-logo" />
             </a>
           </li>
@@ -179,7 +182,8 @@ function Store() {
             </a>
           </li>
         </ul>
-      </footer>
+        </div>
+      </footer> 
     </div>
   );
 }
