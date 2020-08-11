@@ -6,4 +6,4 @@ Follow the steps to run this E-commerce site for musical band/small business (on
 
 3)npm start
 
-Enjoy :)
+Enjoy.
