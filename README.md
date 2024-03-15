@@ -6,4 +6,10 @@ Follow the steps to run this E-commerce site for musical band/small business (on
 
 3)npm start
 
-Enjoy :)
+Enjoy.
+
+Or
+
+Live Deploy link:
+https://e-commerce-site-c2ca.hostman.site
+
