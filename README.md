@@ -11,5 +11,5 @@ Enjoy.
 Or
 
 Live Deploy link:
-https://e-commerce-site-c2ca.hostman.site
+https://65f4743516145f0ab641897c--statuesque-daffodil-7af645.netlify.app/
 
