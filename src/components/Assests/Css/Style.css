@@ -1,6 +1,5 @@
 .main-header {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url("..\Img\Header Background.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   padding: 30px;
